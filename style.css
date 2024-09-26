@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f1e4e4;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px; 
+}
+
+/* Header */
+header {
+    background-color: #b78583;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 60px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    transition: all 0.3s ease; 
+    position: relative; 
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #e7c2c2;
+    transition: all 0.3s ease-in-out; 
+}
+
+/* Home */
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 180px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.intro-text {
+    flex: 1;
+}
+
+.intro-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    color: #9f7d7d;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.intro-text p {
+    font-family: 'Lora', serif;
+    font-size: 1.15rem;
+    color: #8e6765;
+    text-align: right;
+}
+
+.highlight {
+    color: #6d5c5c;  
+}
+
+.intro-photo {
+    flex: 1;
+    text-align: right;
+}
+
+.intro-photo img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 5px solid #d0a5a7;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Projects */
+#projects {
+    padding: 50px 0;
+    background-color: #e0cece;
+}
+
+.projects-header {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #6d5c5c;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.projects-item {
+    max-width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    background-color: #f1e4e4;
+    transition: all 0.3s ease-in-out;
+}
+
+.projects-item:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.projects-item img {
+    width: auto;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.projects-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #9f7d7d;
+    margin-top: 10px;
+}
+
+.projects-description {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    color: #8e6765;
+    margin-top: 10px;
+}
+
+.project-btn {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #cbb1b1; 
+    color: #755352;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.project-btn:hover {
+    background-color: #8e6765;
+    color: #fff; 
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Skills */
+#skills{
+    text-align: center;
+    margin: 50px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.skills-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #6d5c5c;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    background-color: #af8989;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: #f1e4e4;
+}
+
+.skill:hover {
+    background-color: #8e6765;
+    transition: all 0.3s ease-in-out;
+}
+
+.skill-logo {
+    width: auto;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.skill-name {
+    font-size: 1rem;
+    font-weight: bold;
+}
+  
+/* Experiences */
+#experience {
+    padding: 50px 0;
+    background-color: #e0cece;
+}
+
+.experience-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #6d5c5c;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.experience-item {
+    background-color: #f1e4e4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.experience-item:hover {
+    transform: scale(1.02);
+}
+
+.experience-role {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #9f7d7d;
+    margin-bottom: 5px;
+}
+
+.experience-date {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    color: #4f3937;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.experience-description {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    color: #755352;
+}
+
+.experience-description a {
+    color: #6d5c5c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.experience-description a:hover {
+    color: #9f7d7d;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #b78583;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 0.9rem;
+}

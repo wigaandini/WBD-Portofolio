@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Wiga's Personal Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experiences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <div class="intro-text">
+                <h1>Hi, I'm <span class="highlight">Wiga</span></h1>
+                <p>I am an undergraduate student, a third-year <span class="highlight"><b>Informatics Engineering</b></span> student at 
+                    <span class="highlight"><b>Bandung Institute of Technology</b></span>, with a strong foundation and keen interest in programming, 
+                    software development, and data analysis.</p>
+            </div>
+            <div class="intro-photo">
+                <img src="photo.jpg" alt="Wiga's Photo">
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h1 class="projects-header">Projects</h1>
+        <div class="container">
+            <div class="projects-list">
+                <div class="projects-item">
+                    <img src="itbmun.png" alt="ITBMUN 2024 Website">
+                    <h2 class="projects-title">ITBMUN 2024 Website</h2>
+                    <p class="projects-description">The ITBMUN 2024 web project is a digital platform designed to enhance the experience of participants, organizers, and guests 
+                        at the annual Model United Nations event hosted by the Bandung Institute of Technology (ITB). This web platform serves as the central hub for information, 
+                        event schedules, delegate registration, and live updates throughout the conference.</p>
+                    <a href="https://github.com/wigaandini/ITBMUN-2024-Website" class="project-btn">Look</a>
+                </div>
+                
+                <div class="projects-item">
+                    <img src="wikiwiggy.png" alt="wikiwiggy">
+                    <h2 class="projects-title">WikiRace Website</h2>
+                    <p class="projects-description">The WikiRace Game is an interactive web platform where users navigate Wikipedia, starting from one article and clicking through 
+                        linked articles to reach a target in the fewest clicks or shortest time. With its intuitive design and competitive features, the game offers a fun, educational, 
+                        and strategic exploration of Wikipedia, showcasing the developer's algorithm integration skills.</p>
+                    <a href="https://github.com/wigaandini/Tubes2_WikiWiggy" class="project-btn">Look</a>
+                </div>
+            </div>
+            
+            <div class="projects-list">
+                <div class="projects-item">
+                    <img src="smh.png" alt="Harvest Moon Game">
+                    <h2 class="projects-title">Harvest Moon Game</h2>
+                    <p class="projects-description">This GUI-based farm management simulation lets two players plant crops, raise animals, and manage farms using a card system. 
+                        Players can place or sell cards, with random bear attacks destroying farm objects. The game supports save/load via txt files, and after 20 turns, the player with the most money wins. 
+                        It's interactive, challenging, and supports plugins for extensibility.</p>
+                    <a href="https://github.com/wigaandini/IF2210_TB2_SMH" class="project-btn">Look</a>
+                    </div>
+                    
+                    <div class="projects-item">
+                        <img src="puntang.png" alt="Pattern Matching">
+                        <h2 class="projects-title">Pattern Matching App</h2>
+                    <p class="projects-description">The Pattern Matching in Biometric Fingerprint Detection System is an application for fingerprint authentication. Developed with WPF C# and MySQL, 
+                        it uses Boyer-Moore and Knuth-Morris-Pratt algorithms for 100% fingerprint matches. If no exact match is found, the Levenshtein algorithm 
+                        calculates the similarity percentage, ensuring accurate identification.</p>
+                    <a href="https://github.com/wigaandini/Tubes3_PuntangPanting" class="project-btn">Look</a>
+                </div>
+            </div>
+
+            <div class="projects-list">
+                <div class="projects-item">
+                    <img src="makalah.png" alt="Large-scale Network">
+                    <h2 class="projects-title">Large-scale Network</h2>
+                    <p class="projects-description">The project "Optimizing Shortest Path Calculation on Large-Scale Road Networks Using the A* Algorithm" focuses on enhancing shortest path calculations for 
+                        large road networks. Implemented in Python, it leverages frameworks like NetworkX, OSMnx (real map), and GeoPandas (geographic data). These tools efficiently calculate optimal routes on 
+                        large-scale road networks.</p>
+                    <a href="https://github.com/wigaandini/Large-scale-Network" class="project-btn">Look</a>
+                    </div>
+                    
+                    <div class="projects-item">
+                        <img src="os.png" alt="Simple Operating System">
+                        <h2 class="projects-title">Simple Operating System</h2>
+                    <p class="projects-description">The user developed a simple Linux-based operating system using C, featuring core functionalities like text framebuffer, interrupt, and keyboard drivers. 
+                        It supports a FAT32 file system for read, write, and delete operations. The OS also includes kernel-user space separation, a basic shell, task scheduling, and context switching, 
+                        enabling multitasking.</p>
+                    <a href="https://github.com/wigaandini/os-2024-sosis" class="project-btn">Look</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h1 class="skills-title">Skills</h1>
+        <div class="skills-grid">
+            <div class="skill">
+                <img src="python.png" alt="Python Logo" class="skill-logo">
+                <span class="skill-name">Python</span>
+            </div>
+            <div class="skill">
+                <img src="go.png" alt="Go Logo" class="skill-logo">
+                <span class="skill-name">Go</span>
+            </div>
+            <div class="skill">
+                <img src="java.png" alt="Java Logo" class="skill-logo">
+                <span class="skill-name">Java</span>
+            </div>
+            <div class="skill">
+                <img src="c.png" alt="C Logo" class="skill-logo">
+                <span class="skill-name">C</span>
+            </div>
+            <div class="skill">
+                <img src="cpp.png" alt="C++ Logo" class="skill-logo">
+                <span class="skill-name">C++</span>
+            </div>
+            <div class="skill">
+                <img src="csharp.png" alt="C# Logo" class="skill-logo">
+                <span class="skill-name">C#</span>
+            </div>
+            <div class="skill">
+                <img src="postgresql.png" alt="postgreql Logo" class="skill-logo">
+                <span class="skill-name">PostgreSQL</span>
+            </div>
+            <div class="skill">
+                <img src="mysql.png" alt="mysql Logo" class="skill-logo">
+                <span class="skill-name">MySQL</span>
+            </div>
+            <div class="skill">
+                <img src="html.png" alt="html Logo" class="skill-logo">
+                <span class="skill-name">HTML</span>
+            </div>
+            <div class="skill">
+                <img src="css.png" alt="css Logo" class="skill-logo">
+                <span class="skill-name">CSS</span>
+            </div>
+            <div class="skill">
+                <img src="chakra.png" alt="chakra Logo" class="skill-logo">
+                <span class="skill-name">Chakra UI</span>
+            </div>
+            <div class="skill">
+                <img src="react.png" alt="react Logo" class="skill-logo">
+                <span class="skill-name">React</span>
+            </div>
+            <div class="skill">
+                <img src="nextjs.png" alt="nextjs Logo" class="skill-logo">
+                <span class="skill-name">NextJS</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h1 class="experience-title">Experiences</h1>
+        <div class="container">
+            <div class="experience-list">
+                <div class="experience-item">
+                    <h2 class="experience-role">Director of Platform and Web, ITBMUN 2024</h2>
+                    <span class="experience-date">Dec 2023 - Jun 2024</span>
+                    <p class="experience-description">
+                        Oversee a team of developers in building the ITBMUN 2024 website from scratch at <a href="https://itbmun2024.com" target="_blank">itbmun2024.com</a>.
+                    </p>
+                </div>
+    
+                <div class="experience-item">
+                    <h2 class="experience-role">Vice Director of People Management, DE HMIF ITB 2024/2025</h2>
+                    <span class="experience-date">Apr 2024 - Now</span>
+                    <p class="experience-description">
+                        Manage the recruitment process for new staff members and oversee the development of existing staff members in the Department of People of the HMIF ITB.
+                    </p>
+                </div>
+
+                <div class="experience-item">
+                    <h2 class="experience-role">Deputy Subdivision Head of Opening and Closing Ceremony, OSKM ITB 2024</h2>
+                    <span class="experience-date">Jun 2024 - Sep 2024</span>
+                    <p class="experience-description">
+                        Responsible for coordinating the planning, logistics, and execution of the ceremonies, ensuring a memorable and seamless experience for all participants of OSKM ITB 2024.
+                    </p>
+                </div>
+
+                <div class="experience-item">
+                    <h2 class="experience-role">Head of Event, SPARTA HMIF 2023</h2>
+                    <span class="experience-date">Jun 2024 - Sep 2024</span>
+                    <p class="experience-description">
+                        Lead the planning and execution of the SPARTA event, a series of cadre formation and workshops for new IF/STI students before they can join HMIF ITB.
+                    </p>
+                </div>
+
+                <div class="experience-item">
+                    <h2 class="experience-role">Head of Wisnight, Wisokto HMIF 2024</h2>
+                    <span class="experience-date">Aug 2024 - Now</span>
+                    <p class="experience-description">
+                        Lead the planning and execution of Wisnight, a night of celebration and appreciation for the HMIF ITB's graduates 2024.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <footer>        
+        <p>&copy; 2024 Erdianti Wiga Putri Andini. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
