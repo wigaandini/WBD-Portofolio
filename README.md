@@ -1,2 +1,2 @@
 # WBD-Portofolio
-Portofolio Website using HTLML and CSS
+Portofolio Website using HTML and CSS
