@@ -68,6 +68,7 @@ nav ul li a:hover {
 
 .intro-text {
     flex: 1;
+    text-align: right;
 }
 
 .intro-text h1 {
@@ -75,14 +76,29 @@ nav ul li a:hover {
     font-size: 5rem;
     color: #9f7d7d;
     margin-bottom: 10px;
-    text-align: right;
 }
 
 .intro-text p {
     font-family: 'Lora', serif;
     font-size: 1.15rem;
     color: #8e6765;
-    text-align: right;
+    margin-bottom: 20px;
+}
+
+.intro-text a {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.intro-text img {
+    width: 40px; 
+    height: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.intro-text img:hover {
+    transform: scale(1.1);
 }
 
 .highlight {
@@ -103,6 +119,7 @@ nav ul li a:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
+
 /* Projects */
 #projects {
     padding: 50px 0;
@@ -114,7 +131,7 @@ nav ul li a:hover {
     font-weight: bold;
     font-size: 3rem;
     color: #6d5c5c;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -124,7 +141,6 @@ nav ul li a:hover {
     grid-gap: 100px;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 50px;
 }
 
 .projects-item {
@@ -310,5 +326,32 @@ footer {
 }
 
 footer p {
+    margin: 10px 0;
     font-size: 0.9rem;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    color: #e7c2c2;
+}
+
+.socmed {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.socmed a {
+    transition: all 0.3s ease-in-out;
+}
+
+.socmed a:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
 }
