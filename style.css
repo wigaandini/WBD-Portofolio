@@ -387,8 +387,18 @@ footer p {
         margin: 0 50px;
     }
 
+    .projects-item img {
+        width: auto;
+        height: 100px;
+    }
+
     .skills-grid {
         gap: 10px;
+        margin: 0 50px;
+    }
+
+    .experience-list {
+        margin: 0 50px;
     }
 
     .projects-title, .experience-role {
@@ -444,14 +454,25 @@ footer p {
         grid-gap: 40px;
         margin: 0 50px;
     }
+    
+    .projects-item img {
+        width: auto;
+        height: 100px;
+    }
 
     .project-btn {
         font-size: 0.9rem;
         padding: 8px 15px;
     }
 
+    .skills-grid {
+        gap: 10px;
+        margin: 0 50px;
+    }
+    
     .experience-list {
         flex-direction: column;
+        margin: 0 50px;
     }
 
     .projects-title, .experience-role {
