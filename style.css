@@ -17,6 +17,7 @@ body {
     padding: 0 40px; 
 }
 
+
 /* Header */
 header {
     background-color: #b78583;
@@ -51,6 +52,7 @@ nav ul li a:hover {
     color: #e7c2c2;
     transition: all 0.3s ease-in-out; 
 }
+
 
 /* Home */
 #home {
@@ -204,6 +206,7 @@ nav ul li a:hover {
     transition: all 0.3s ease-in-out;
 }
 
+
 /* Skills */
 #skills{
     text-align: center;
@@ -250,7 +253,8 @@ nav ul li a:hover {
     font-size: 1rem;
     font-weight: bold;
 }
-  
+ 
+
 /* Experiences */
 #experience {
     padding: 50px 0;
@@ -317,6 +321,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+
 /* Footer */
 footer {
     background-color: #b78583;
@@ -354,4 +359,114 @@ footer p {
 .socmed a:hover {
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
+}
+
+
+/* Tablet Size */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    #home {
+        padding: 60px 100px;
+    }
+
+    .intro-text h1 {
+        font-size: 4rem;
+    }
+
+    .intro-photo img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .projects-list {
+        grid-template-columns: 1fr; 
+        grid-gap: 50px;
+        margin: 0 50px;
+    }
+
+    .skills-grid {
+        gap: 10px;
+    }
+
+    .projects-title, .experience-role {
+        font-size: 1.8rem;
+    }
+
+    .experience-title, .projects-header {
+        font-size: 2.5rem;
+    }
+}
+
+
+/* Mobile Size */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    #home {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .intro {
+        flex-direction: column;
+    }
+
+    .intro-text {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .intro-text h1 {
+        font-size: 3rem;
+    }
+
+    .intro-text p {
+        font-size: 1rem;
+    }
+
+    .intro-photo {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .intro-photo img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .projects-list {
+        grid-template-columns: 1fr; 
+        grid-gap: 40px;
+        margin: 0 50px;
+    }
+
+    .project-btn {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+
+    .experience-list {
+        flex-direction: column;
+    }
+
+    .projects-title, .experience-role {
+        font-size: 1.5rem;
+    }
+
+    .experience-title, .projects-header {
+        font-size: 2rem;
+    }
+
+    footer {
+        padding: 15px 0;
+    }
+
+    .socmed {
+        gap: 10px;
+    }
 }
