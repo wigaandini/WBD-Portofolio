@@ -435,7 +435,7 @@ footer p {
         height: 100px;
     }
 
-    .experience-description {
+    .project-description {
         font-size: 1.5rem;
     }
 
@@ -460,6 +460,10 @@ footer p {
 
     .experience-title, .projects-header {
         font-size: 4rem;
+    }
+    
+    .experience-description {
+        font-size: 1.5rem;
     }
 
     footer {
