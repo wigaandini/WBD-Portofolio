@@ -407,11 +407,11 @@ footer p {
     }
 
     .intro-text h1 {
-        font-size: 3.1rem;
+        font-size: 5rem;
     }
 
     .intro-text p {
-        font-size: 1.1rem;
+        font-size: 2rem;
     }
 
     .intro-photo {
@@ -420,8 +420,8 @@ footer p {
     }
 
     .intro-photo img {
-        width: 400px;
-        height: 400px;
+        width: 420px;
+        height: 420px;
     }
 
     .projects-list {
@@ -436,7 +436,7 @@ footer p {
     }
 
     .project-btn {
-        font-size: 0.9rem;
+        font-size: 1.5rem;
         padding: 8px 15px;
     }
 
@@ -451,11 +451,11 @@ footer p {
     }
 
     .projects-title, .experience-role {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .experience-title, .projects-header {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     footer {
@@ -464,6 +464,10 @@ footer p {
 
     .socmed {
         gap: 10px;
+    }
+
+    nav {
+        font-size: 2rem;
     }
 
     nav ul.menu{
@@ -498,7 +502,7 @@ footer p {
     nav ul li {
         display: block;
         text-align: center;
-        margin: 40px 0;
+        margin:70px 0;
     }
 
     header {
