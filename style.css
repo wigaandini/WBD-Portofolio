@@ -435,9 +435,13 @@ footer p {
         height: 100px;
     }
 
+    .experience-description {
+        font-size: 1.5rem;
+    }
+
     .project-btn {
         font-size: 1.5rem;
-        padding: 8px 15px;
+        padding: 8px 20px;
     }
 
     .skills-grid {
@@ -451,11 +455,11 @@ footer p {
     }
 
     .projects-title, .experience-role {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .experience-title, .projects-header {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     footer {
@@ -502,7 +506,7 @@ footer p {
     nav ul li {
         display: block;
         text-align: center;
-        margin:70px 0;
+        margin: 70px 0;
     }
 
     header {
