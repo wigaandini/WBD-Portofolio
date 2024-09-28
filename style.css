@@ -53,6 +53,19 @@ nav ul li a:hover {
     transition: all 0.3s ease-in-out; 
 }
 
+/* Hamburger icon */
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+}
+
+#menu-toggle {
+    display: none;
+}
+
 
 /* Home */
 #home {
@@ -114,8 +127,8 @@ nav ul li a:hover {
 
 .intro-photo img {
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     object-fit: cover;
     border: 5px solid #d0a5a7;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -361,6 +374,16 @@ footer p {
     transition: all 0.3s ease-in-out;
 }
 
+/*  Desktop Size */
+@media (min-width: 1024x) {
+    nav ul {
+        display: block; /* Menu visible on desktop */
+    }
+
+    .hamburger {
+        display: none; /* Hide hamburger on desktop */
+    }
+}
 
 /* Tablet Size */
 @media (max-width: 1024px) and (min-width: 768px) {
@@ -408,13 +431,52 @@ footer p {
     .experience-title, .projects-header {
         font-size: 2.5rem;
     }
+
+    nav ul.menu{
+        display: none; 
+    }
+
+    .hamburger {
+        display: block; 
+    }
+
+    nav ul.menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%; 
+        background-color: #a87575;
+        opacity: 0.95;
+        padding: 2em 0;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+        transition: transform 0.4s ease; 
+        transform: translateX(-100%);
+        z-index: 9999; 
+        margin-top: 80px;
+    }
+
+    #menu-toggle:checked + .hamburger + nav ul.menu {
+        transform: translateX(0); 
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    header {
+        height: 80px;
+    }
 }
 
 
 /* Mobile Size */
 @media (max-width: 768px) {
     .container {
-        padding: 0 10px;
+        padding: 0 20px;
     }
 
     #home {
@@ -489,5 +551,44 @@ footer p {
 
     .socmed {
         gap: 10px;
+    }
+
+    nav ul.menu{
+        display: none; 
+    }
+
+    .hamburger {
+        display: block; 
+    }
+
+    nav ul.menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%; 
+        background-color: #a87575;
+        opacity: 0.95;
+        padding: 2em 0;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+        transition: transform 0.4s ease; 
+        transform: translateX(-100%);
+        z-index: 9999; 
+        margin-top: 80px;
+    }
+
+    #menu-toggle:checked + .hamburger + nav ul.menu {
+        transform: translateX(0); 
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    header {
+        height: 80px;
     }
 }
