@@ -407,11 +407,11 @@ footer p {
     }
 
     .intro-text h1 {
-        font-size: 3rem;
+        font-size: 3.1rem;
     }
 
     .intro-text p {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .intro-photo {
@@ -420,8 +420,8 @@ footer p {
     }
 
     .intro-photo img {
-        width: 250px;
-        height: 250px;
+        width: 400px;
+        height: 400px;
     }
 
     .projects-list {
@@ -488,7 +488,7 @@ footer p {
         transition: transform 0.4s ease; 
         transform: translateX(-100%);
         z-index: 9999; 
-        margin-top: 120px;
+        margin-top: 140px;
     }
 
     #menu-toggle:checked + .hamburger + nav ul.menu {
@@ -502,6 +502,6 @@ footer p {
     }
 
     header {
-        height: 120px;
+        height: 140px;
     }
 }
