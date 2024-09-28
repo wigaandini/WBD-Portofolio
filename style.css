@@ -435,8 +435,8 @@ footer p {
         height: 100px;
     }
 
-    .project-description {
-        font-size: 1.5rem;
+    .project-description, .experience-description, .skill-name {
+        font-size: 1.2rem;
     }
 
     .project-btn {
@@ -455,15 +455,11 @@ footer p {
     }
 
     .projects-title, .experience-role {
-        font-size: 3rem;
+        font-size: 2.3rem;
     }
 
-    .experience-title, .projects-header {
+    .experience-title, .projects-header, .skills-title {
         font-size: 4rem;
-    }
-    
-    .experience-description {
-        font-size: 1.5rem;
     }
 
     footer {
