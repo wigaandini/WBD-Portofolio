@@ -432,7 +432,7 @@ footer p {
 
     .projects-item img {
         width: auto;
-        height: 100px;
+        height: 300px;
     }
 
     .project-description, .experience-description, .skill-name {
@@ -441,7 +441,7 @@ footer p {
 
     .project-btn {
         font-size: 2rem;
-        padding: 10px 20px;
+        padding: 10px 10px;
     }
 
     .skills-grid {
