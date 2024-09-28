@@ -436,12 +436,12 @@ footer p {
     }
 
     .project-description, .experience-description, .skill-name {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .project-btn {
         font-size: 2rem;
-        padding: 10px 10px;
+        padding: 10px 8px;
     }
 
     .skills-grid {
@@ -497,7 +497,6 @@ footer p {
         transform: translateX(-100%);
         z-index: 9999; 
         margin-top: 140px;
-        font-size: 2rem;
     }
 
     #menu-toggle:checked + .hamburger + nav ul.menu {
@@ -507,7 +506,11 @@ footer p {
     nav ul li {
         display: block;
         text-align: center;
-        margin: 70px 0;
+        margin: 80px 0;
+    }
+
+    nav ul li a {
+        font-size: 2rem;
     }
 
     header {
